@@ -1,7 +1,11 @@
 name: Deploy
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+
+permissions:
+  contents: write
 
 env:
   NODE_VERSION: "16.x"
