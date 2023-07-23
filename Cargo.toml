@@ -1,8 +1,10 @@
 [package]
-name = "hello_world"
+name = "nash_equilibria"
 version = "0.1.0"
 authors = ["The wasm-bindgen Developers"]
 edition = "2018"
+description = "A program for computing Nash Equilibria"
+repository = "https://github.com/fildon/nash-equilibria"
 
 [lib]
 crate-type = ["cdylib"]
